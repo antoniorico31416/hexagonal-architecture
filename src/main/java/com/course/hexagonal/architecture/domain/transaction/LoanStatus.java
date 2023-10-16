@@ -1,6 +1,6 @@
 package com.course.hexagonal.architecture.domain.transaction;
 
-public enum Status {
+public enum LoanStatus {
 
-    BORROWED, RETURNED, OVERDUE, IN_PROGRESS
+    IN_PROGRESS, CLOSED
 }

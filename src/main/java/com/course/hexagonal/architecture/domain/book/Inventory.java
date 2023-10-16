@@ -1,4 +1,4 @@
-package com.course.hexagonal.architecture.domain.Books;
+package com.course.hexagonal.architecture.domain.book;
 
 import lombok.Data;
 

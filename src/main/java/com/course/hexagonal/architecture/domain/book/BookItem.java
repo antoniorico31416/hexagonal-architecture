@@ -1,10 +1,11 @@
-package com.course.hexagonal.architecture.domain.Books;
+package com.course.hexagonal.architecture.domain.book;
 
 import lombok.Builder;
 import lombok.Data;
+import lombok.experimental.SuperBuilder;
 
 @Data
-@Builder
+@SuperBuilder
 public class BookItem extends Book{
     private int availableCopies;
 
